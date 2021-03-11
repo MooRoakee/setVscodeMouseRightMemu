@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Terminal]
+@="用Terminal打开文件夹"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.6.10571.0_x64__8wekyb3d8bbwe\\wt.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Terminal\Command]
+@="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.6.10571.0_x64__8wekyb3d8bbwe\\wt.exe -d \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminal]
+@="用Terminal打开文件夹"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.6.10571.0_x64__8wekyb3d8bbwe\\wt.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminal\Command]
+@="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.6.10571.0_x64__8wekyb3d8bbwe\\wt.exe -d \"%V\"" 
