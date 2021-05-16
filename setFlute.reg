@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Flute]
+@="用Flute打开文件夹"
+"Icon"="\"%LOCALAPPDATA%\\Microsoft\\WindowsApps\\flute.ico\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Flute\Command]
+@="\"%LOCALAPPDATA%\\Microsoft\\WindowsApps\\flute.exe\" new \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Flute]
+@="用Flute打开文件夹"
+"Icon"="\"%LOCALAPPDATA%\\Microsoft\\WindowsApps\\flute.ico\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Flute\Command]
+@="\"%LOCALAPPDATA%\\Microsoft\\WindowsApps\\flute.exe\" new \"%V\""
